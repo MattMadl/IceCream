@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.nav-heading{
+    display: flex;
+    background-color: #bc4c4a;
+    padding:1em;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto';
+    background-color: #F9FCE7;
+}
+
+.burger img{
+    width:50px;
+    margin-top: 1.25em;
+}
+
+nav {
+    width:100%;
+    text-align: right;
+}
+
+.nav-logo img{
+    width:75px;
+}
+
+nav ul {
+    display: none;
+}
+
+.hero-section {
+    display: flex; 
+    background-color: #F9FCE7;
+    justify-content: center; 
+    height: auto;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center; 
+    margin: 40px;
+}
+
+.hero-text {
+    color:#bc4c4a;
+    font-size: 250%;
+    display: none;
+    font-family: 'Passion One';
+}
+
+.hero-text2 {
+    color:#bc4c4a;
+    font-size: 250%;
+    margin: 0em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-family: Passion One;
+    background-color: #F9FCE7;
+}
+
+.hero-content img {
+    width:160px;
+    display: inline-block;
+}
+
+.flavors {
+    background-color: #3E7E95;
+    height: auto;
+    padding-bottom: 2em;
+}
+
+.featuredHeader {
+    margin:0em;
+    text-align: center;
+    padding:1em;
+    color: white;
+    font-size: 40px;
+    font-family: 'Passion One';
+}
+
+.section {
+    display: none;
+}
+
+.section2 {
+    display: flex;
+    text-align: center;
+    color: white;
+    margin: 0.0em;
+    height: 250px;
+}
+
+.flavors img {
+    width: 150px;
+    margin: 0em 1em;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.3em;
+    border-color: #F9FCE7;
+}
+
+.flavors p {
+    font-family: 'Passion One';
+    font-size: 30px;
+}
+
+.section2 .superman {
+    width: 50%;
+}
+
+.section2 .pistachio {
+    width: 50%;
+}
+
+.section2 .chocochip {
+    width: 50%;
+}
+
+.section2 .raspberry {
+    width: 50%;
+}
+
+.section3 {
+    display: inline;
+    text-align: center;
+    color: white;
+    margin: 0.0em;
+    height: auto;
+}
+
+.locationsHeader {
+    margin: 0em;
+    text-align: center;
+    padding:1em;
+    padding-bottom: 0em;
+    color: #bc4c4a;
+    font-size: 40px;
+    font-family: 'Passion One';
+}
+
+.locations {
+    background-color: #F9FCE7;
+    height: auto;
+}
+
+.locations img {
+    width: 100%;
+    display: block;
+}
+
+.locations address p {
+    color: black;
+    text-align: left;
+    padding: 0em 1em;
+    margin: 0em;
+    font-style: normal;
+}
+
+.location {
+    border-style: solid;
+    border-color: #bc4c4a;
+    height: 400px;
+    border-width: 5px;
+    width: auto;
+    height: auto;
+    margin: 15%;
+    padding-bottom: 2em;
+}
+
+
+h3 {
+    background-color: #bc4c4a;
+    margin: 0em;
+    padding: 1em;
+    text-align: left;
+    padding-left: 1em;
+    font-family: Passion One;
+    font-size: 25px;
+}
+
+.orderHeader {
+    margin:0em;
+    font-family: 'Passion One';
+    text-align: center;
+    padding:1em;
+    color: white;
+    font-size: 40px;
+    background-color: #bc4c4a;
+}
+
+.orderOnline {
+    background-color: #bc4c4a;
+}
+
+.entry label {
+    display: flex;
+}
+
+.entry input {
+    width: 80%;
+    height: 2em;
+}
+
+.entry {
+    width: 60%;
+    margin: 1em 25%;
+}
+
+select {
+    width: 85%;
+    height: 3em;
+}
+
+label {
+    width: 10em;
+}
+
+.row {
+    color: white;
+} 
+
+fieldset .row {
+    height: auto;
+    display: inline;
+}
+
+fieldset input {
+    margin: 1em;
+    transform: scale(1.5)
+}
+
+fieldset {
+    width: 50%;
+    margin-left: 23.5%;
+    margin-top: 3em;
+    border: none;
+    display: inline;
+    color: white;
+    font-family: 'Roboto';
+    justify-content: center
+}
+
+/* legend {
+    padding-left: 20%;
+} */
+
+.button {
+    background-color: white;
+    color: #bc4c4a;
+    text-decoration: none;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-right: auto;
+}
+
+
+.copyright {
+    background-color: #3E7E95;
+    text-align: center;
+    padding: 0.5em;
+    color: white;
+    font-style: italic;
+    font-size: smaller;
+}
+
+
+@media only screen and (min-width: 800px) {
+    nav ul{
+        display:block;
+    }
+    .burger {
+        display:none;
+    }
+    .hero-text {
+        display: flex; 
+        color:#bc4c4a;
+        font-size: 120px;
+    } 
+    .hero-text2 {
+        display: none; 
+    } 
+    .hero-content img {
+        display: flex;
+    }
+    .flavors {
+        background-color: #3E7E95;
+    }
+    
+    .featuredHeader {
+        margin:0em;
+        text-align: center;
+        padding:1em;
+        color: white;
+        font-size: 65px;
+    }
+
+    .section {
+        display: flex;
+        text-align: center;
+        color: white;
+        margin: 0.0em;
+        height: auto;
+    }
+    
+    .flavors img {
+        width: 150px;
+        margin: 0em 1em;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: #F9FCE7;
+    }
+    
+    .flavors p {
+        font-family: 'Passion One';
+        font-size: 20px;
+    }
+    
+    .section .superman {
+        width: 25%;
+    }
+    
+    .section .pistachio {
+        width: 25%;
+    }
+    
+    .section .chocochip {
+        width: 25%;
+    }
+    
+    .section .raspberry {
+        width: 25%;
+    }
+
+    .section2 {
+        display: none;
+    }
+
+    .section3 {
+        display: none;
+    }
+    
+    .locationsHeader {
+        margin:0em;
+        text-align: center;
+        padding:1em;
+        color: #bc4c4a;
+        font-size: 65px;
+    }
+    
+    .locations {
+        background-color: #F9FCE7;
+        height: auto;
+        padding-bottom: 2em;
+        padding-top: 0em;
+    }
+    
+    
+    .locations img {
+        width: 100%;
+    
+    }
+    
+    .locations p {
+        color: black;
+        text-align: left;
+        padding: 0em 1em;
+        margin: 0em;
+        font-style: normal;
+    }
+    
+    .location {
+        border-style: solid;
+        border-color: #bc4c4a;
+        height: 370px;
+        border-width: 5px;
+        width: 25%;
+        margin: 1.5em;
+    }
+
+    
+    h3 {
+        background-color: #bc4c4a;
+        margin: 0em;
+        padding: .5em;
+        text-align: left;
+        padding-left: 1em;
+    }
+    
+    .orderHeader {
+        margin:0em;
+        text-align: center;
+        padding-bottom: 0.25em;
+        color: white;
+        font-size: 65px;
+    }
+    
+    .orderOnline {
+        background-color: #bc4c4a;
+    }
+
+    .entry label {
+        display: flex;
+    }
+
+    .entry input {
+        width: 200px;
+    }
+
+    .entry {
+        width: 100%;
+    }
+
+    .left {
+        margin-left: 38%;
+        margin-right: 0.5em;
+    }
+
+    .right {
+        margin-left: 0.5em;
+        margin-right: 38%
+    }
+
+    .row {
+        display: flex;
+        color: white;
+        margin-top: 0em;
+        height: auto;
+        padding-bottom: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    fieldset .row {
+        height: auto;
+        text-align: left;
+        display: flex;
+    }
+
+    fieldset {
+        border: none;
+        color: white;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    .superCheck {
+        width: 33%
+    }
+
+    .raspCheck {
+        width: 33%
+    }
+
+    .pistachioCheck {
+        width: 33%
+    }
+
+    .chocoChipCheck {
+        width: 33%
+    }
+
+    select {
+        width: 120%;
+        height: 3em;
+    }
+
+    legend {
+        margin-left: 20%;
+    }
+
+    .pickupday select {
+        width: 97%;
+        margin: 0em;
+    }
+
+    .pickuploc select{
+        width: 97%;
+        margin: 0em;
+    }
+
+    .pickupday {
+        width: 16%;
+        margin-right: 0.5em;
+    }
+
+    .pickuploc {
+        width: 16%;
+        margin-left: 0.5em
+    }
+
+    .button {
+        margin-left: 33.3%;
+        margin-right: auto;
+    }
+  }
